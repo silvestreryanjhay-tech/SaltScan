@@ -1,0 +1,36 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SaltScan | Microplastic Detection and Removal in Salt</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body>
+<header class="nav"><a class="logo" href="#">Salt<b>Scan</b></a><nav><a href="#how">How it works</a><a href="#features">Features</a><a href="#team">Team</a><a class="btn" href="dashboard.html">Open dashboard</a></nav></header>
+<main>
+<section class="hero"><div class="stage" id="stage" aria-hidden="true"><div class="streak"></div><div class="orb" id="orb"></div><div class="wave w1"></div><div class="wave w2"></div><div class="wave w3"></div>
+<span class="dot" style="width:10px;height:10px;left:12%;top:20%"></span><span class="dot" style="width:7px;height:7px;left:85%;top:70%;animation-delay:-2s;background:var(--aq)"></span><span class="dot" style="width:12px;height:12px;left:70%;top:12%;animation-delay:-4s;background:var(--bl)"></span></div>
+<div class="wrap" style="position:absolute;inset:0;pointer-events:none"><div style="grid-column:1;pointer-events:auto;align-self:center">
+<p class="kick">RTU Computer Engineering Capstone, 2026</p><h1>Know what's in your salt. Remove what shouldn't be.</h1>
+<p class="lead">SaltScan dissolves a salt sample, images it, counts the microplastics automatically, and filters again until the batch passes.</p>
+<div class="cta"><a class="btn" href="dashboard.html">View dashboard</a><a class="btn o" href="#how">How it works</a></div></div></div></section>
+
+<section class="wrap"><div class="strip">
+<div class="card"><b>1,832</b><small>particles per kg reported in sea salt (± 40)</small></div>
+<div class="card"><b>3</b><small>maximum filtration passes before manual review</small></div>
+<div class="card"><b>6</b><small>automated stages from sample to report</small></div>
+<div class="card"><b>1</b><small>compliance report for every batch</small></div></div></section>
+
+<section class="sec" id="how"><div class="wrap"><h2>One closed loop, from sample to report</h2><p class="sub">The detection result decides whether to filter again, so filtering follows the count, not a fixed schedule.</p>
+<div class="flow">
+<div class="node n0"><b>Sample preparation</b>Weigh salt sample</div><div class="node n0"><b>Dissolution</b>Salt dissolves in water</div><div class="node n1"><b>Filtration pass</b>Removal happens here</div><div class="node n2"><b>Automated detection</b>Images residue and filtrate</div>
+<div class="node n3"><b>Efficiency check</b>Vs regulatory limit</div><div class="node n4"><b>Manual review</b>Max passes hit</div><div class="node n5"><b>Recovery</b>Recrystallize purified filtrate</div><div class="node n0"><b>Output and report</b>Purified salt, compliance report</div>
+<p class="loop">↻ Below limit, under 3 passes: repeat filtering</p></div></div></section>
+
+<section class="sec" id="features"><div class="wrap"><h2>Built for batch-level quality control</h2><p class="sub">Replaces slow manual counting with a repeatable result and a record buyers can check.</p>
+<div class="feat"><div class="card"><div class="ico"></div><h3>Image-based counting</h3><p>Detects and classifies fibers, fragments and beads from images of the residue and filtrate.</p></div>
+<div class="card"><div class="ico" style="background:linear-gradient(135deg,var(--go),var(--aq))"></div><h3>Closed-loop filtration</h3><p>Repeats up to three passes when the batch is over the limit, then flags it for review.</p></div>
+<div class="card"><div class="ico" style="background:linear-gradient(135deg,var(--bl),var(--go))"></div><h3>Salt recovery</h3><p>Purified filtrate is recrystallized into usable salt instead of discarding a failed batch.</p></div></div></div></section>
+
+<section class="wrap"><div class="cta-band"><h2>See the batch data</h2><a class="btn" href="dashboard.html">Open the dashboard</a></div></section>
+
+<section class="sec" id="team"><div class="wrap"><h2>The proponents</h2><div class="team"><span>Clarence Jefferson T. Famero</span><span>Ana Bea L. Gutang</span><span>Angelo David P. Nueva</span><span>Ryan Jhay O. Silvestre</span><span>Joshua U. Tacoycoy</span></div>
+<p class="sub">Capstone Adviser: Prof. Corazon Aspuria. Course Adviser: Dr. Belinda G. Bunag.</p></div></section></main>
+<footer>College of Engineering, Rizal Technological University, Mandaluyong. November 2026.</footer>
+<script src="app.js"></script></body></html>
