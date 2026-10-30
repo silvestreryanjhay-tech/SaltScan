@@ -96,6 +96,13 @@ tbody tr:hover td{background:rgba(255,255,255,.025)}tbody tr:last-child td{borde
 .rl{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:13px 0;border-bottom:1px solid var(--line)}.rl:last-child{border-bottom:0;padding-bottom:0}.rl:first-of-type{padding-top:0}
 .app ::-webkit-scrollbar{height:8px;width:8px}.app ::-webkit-scrollbar-thumb{background:var(--line);border-radius:8px}
 
+/* ===== viewer, particle table, validation ===== */
+.vp{overflow:hidden;border-radius:10px;border:1px solid var(--line);background:var(--panel2);touch-action:none;cursor:grab;position:relative}
+.vp:active{cursor:grabbing}.vp canvas{transform-origin:0 0;border:0;border-radius:0}
+tbody tr[data-i]{cursor:pointer}tbody tr.sel td{background:rgba(63,227,208,.12)}
+.kv{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid var(--line);font-size:.88rem}.kv:last-child{border-bottom:0}.kv span{color:var(--mu)}
+.x{background:none;border:0;color:var(--mu);cursor:pointer;font-size:1.1rem}.x:hover{color:var(--rd)}
+
 @media(max-width:1000px){.main{padding:24px 20px 48px}.s3{grid-column:span 6}.s4,.s6,.s8{grid-column:span 12}}
 @media(max-width:900px){.hero .wrap,.feat,.strip,.flow{grid-template-columns:1fr 1fr}.hero .wrap{grid-template-columns:1fr}.stage{height:420px}.app{grid-template-columns:1fr}.side{display:none}.nav nav a:not(.btn){display:none}.form{grid-template-columns:1fr}}
 @media(max-width:560px){.feat,.strip,.flow{grid-template-columns:1fr}.stage{transform:scale(.75)}.s3{grid-column:span 12}}
